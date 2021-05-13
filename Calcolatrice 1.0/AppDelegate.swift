@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Calcolatrice 1.0
 //
-//  Created by ifts14 on 19/01/21.
+//  Created by Lorenzo Sottocorno on 19/01/21.
 //
 
 import UIKit
@@ -10,14 +10,17 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+        var window:UIWindow?  
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
-    }
-
-    // MARK: UISceneSession Lifecycle
+        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+            
+            window?.makeKeyAndVisible()                 // Google ADS
+            window?.rootViewController = ViewController()    // Google ADS
+            
+            return true
+        }
+        
+        // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.

@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED5DF0D825E521B30089A176 /* Calcolatrice 1.0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Calcolatrice 1.0.entitlements"; sourceTree = "<group>"; };
 		EDC5F8FF25B78991006F72FC /* Calcolatrice 1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calcolatrice 1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC5F90225B78991006F72FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDC5F90425B78991006F72FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 				EDC5F90B25B78992006F72FC /* Assets.xcassets */,
 				EDC5F90D25B78992006F72FC /* LaunchScreen.storyboard */,
 				EDC5F91025B78992006F72FC /* Info.plist */,
+				ED5DF0D825E521B30089A176 /* Calcolatrice 1.0.entitlements */,
 			);
 			path = "Calcolatrice 1.0";
 			sourceTree = "<group>";
@@ -83,6 +85,8 @@
 			dependencies = (
 			);
 			name = "Calcolatrice 1.0";
+			packageProductDependencies = (
+			);
 			productName = "Calcolatrice 1.0";
 			productReference = EDC5F8FF25B78991006F72FC /* Calcolatrice 1.0.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +114,8 @@
 				Base,
 			);
 			mainGroup = EDC5F8F625B78990006F72FC;
+			packageReferences = (
+			);
 			productRefGroup = EDC5F90025B78991006F72FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -153,6 +159,7 @@
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		EDC5F90D25B78992006F72FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -216,7 +223,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,15 +293,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Calcolatrice 1.0/Calcolatrice 1.0.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RD24B28LP7;
 				INFOPLIST_FILE = "Calcolatrice 1.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lorenzoSottocorno.Calcolatrice-1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,15 +315,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Calcolatrice 1.0/Calcolatrice 1.0.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RD24B28LP7;
 				INFOPLIST_FILE = "Calcolatrice 1.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lorenzoSottocorno.Calcolatrice-1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
